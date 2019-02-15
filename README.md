@@ -1,10 +1,6 @@
-[![Build Status](https://travis-ci.org/alikaragoz/DaisyChain.svg?branch=master)](https://travis-ci.org/alikaragoz/DaisyChain)
-[![Version](http://img.shields.io/cocoapods/v/DaisyChain.svg)](http://cocoapods.org/?q=DaisyChain)
-[![Carthage compatible](https://img.shields.io/badge/Carthage-compatible-4BC51D.svg?style=flat)](https://github.com/Carthage/Carthage)
-
-
 DaisyChain
 ----------
+Updated Fork of [alikaragoz - DaisyChain](https://github.com/alikaragoz/DaisyChain)
 
 **DaisyChain** is a micro framework which makes UIView animations chaining dead simple. It uses the exact same interface you are familiar with.
 
@@ -97,13 +93,8 @@ source 'https://github.com/CocoaPods/Specs.git'
 platform :ios, '8.0'
 use_frameworks!
 
-pod 'DaisyChain', '~> 1.0.0'
-```
+pod 'DaisyChain', :git => 'https://github.com/Nordeast/DaisyChain.git'
 
-#### Setting up with Carthage
-
-```ogdl
-github "alikaragoz/DaisyChain" ~> 1.0.0
 ```
 
 #### License
